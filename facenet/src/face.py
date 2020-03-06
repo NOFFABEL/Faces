@@ -37,8 +37,8 @@ import numpy as np
 import tensorflow as tf
 from scipy import misc
 
-from facenet.src.align import detect_face
-from facenet.src import facenet
+import align.detect_face
+import facenet
 
 gpu_memory_fraction = 0.3
 facenet_model_checkpoint = os.path.dirname(__file__) + "/../model_checkpoints/20180408-102900"
