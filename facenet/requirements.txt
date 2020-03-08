@@ -1,11 +1,13 @@
-tensorflow==1.7
+facenet
+tensorflow==1.12
+keras==2.2.5
+Cython
+sklearn
+matplotlib
+pillow
+jupyter notebook
+jupyterlab
+cvlib
 scipy==1.1.0
 numpy==1.16.1
-scikit-learn
 opencv-python
-h5py
-matplotlib
-Pillow
-requests
-psutil
-facenet
